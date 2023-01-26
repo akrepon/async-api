@@ -1,0 +1,19 @@
+{
+    "type": "record",
+    "name": "person",
+    "imports": ["https://raw.githubusercontent.com/akrepon/async-api/main/address.avsc"],
+    "fields": [
+      {
+        "name": "firstname",
+        "type": "string"
+      },
+      {
+        "name": "lastname",
+        "type": "string"
+      },
+      {
+        "name": "address",
+        "type": "Address"
+      }
+    ]
+}
